@@ -1,0 +1,220 @@
+/* SECCION 1*/
+.req-container-1 {
+    background: url(../img/source1.jpg) no-repeat right;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 80px 0;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.container-1 {
+    width: 55%;
+    float: left;
+    background-color: #ebebeb;
+    padding: 100px;
+}
+
+.container-1 h1 {
+    color: #EB7713;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.container-1 p {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* SECCION 2*/
+.req-container-2 {
+    background: url(../img/imagen6.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.container-2 {
+    width: 55%;
+    float: right;
+    background-color: #ebebeb;
+    padding: 100px;
+}
+
+.container-2 h1 {
+    color: #EB7713;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.container-2 p {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* SECCION 3*/
+.req-container-3 {
+    background: url(../img/imagen3.jpg) no-repeat right;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.container-3 {
+    width: 55%;
+    float: left;
+    background-color: #ebebeb;
+    padding: 100px;
+}
+
+.container-3 h1 {
+    color: #EB7713;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.container-3 p {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* SECCION 4*/
+.req-container-4 {
+    background: url(../img/imagen5.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: white;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.container-4 {
+    width: 55%;
+    float: right;
+    background-color: #ebebeb;
+    padding: 100px;
+}
+
+.container-4 h1 {
+    color: #EB7713;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.container-4 p {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1200px) {
+    .container-1 {
+        padding: 80px;
+    }
+
+    .container-2 {
+        padding: 80px;
+    }
+
+    .container-3 {
+        padding: 80px;
+    }
+
+    .container-4 {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .req-container-1 {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .container-1 {
+        width: 100%;
+    }
+
+    .req-container-2 {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .container-2 {
+        width: 100%;
+    }
+
+    .req-container-3 {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .container-3 {
+        width: 100%;
+    }
+
+    .req-container-4 {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .container-4 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .req-container-1 {
+        padding: 0;
+    }
+
+    .container-1 {
+        padding: 60px;
+    }
+
+    .req-container-2 {
+        padding: 0;
+    }
+
+    .container-2 {
+        padding: 60px;
+    }
+
+    .req-container-3 {
+        padding: 0;
+    }
+
+    .container-3 {
+        padding: 60px;
+    }
+
+    .req-container-4 {
+        padding: 0;
+    }
+
+    .container-4 {
+        padding: 60px;
+    }
+}

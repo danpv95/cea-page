@@ -1,0 +1,54 @@
+/*BARRA DE MENU*/
+.barra-menu {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo {
+    width: 5%;
+    margin: auto;
+    padding: 5px;
+    justify-content: right;
+}
+
+.logo-img {
+    width: 110px;
+    height: 100px;
+}
+
+nav {
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    margin-left: auto;
+}
+
+nav>a {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+
+    margin-left: auto;
+    justify-content: left;
+}
+
+nav>a:hover {
+    color: #EB7713;
+    font-weight: 400;
+}
+
+@media (max-width: 600px) {
+    .nav {
+        background: #EB7713;
+        flex-direction: column;
+    }
+
+}

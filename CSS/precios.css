@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #a5f059;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*.requisitos {
+    background: #455A64;
+    width: 100%;
+    margin: auto;
+    padding: 20px 100px 20px 100px;
+    align-items: center;
+}
+
+.requisitos h2 {
+    color: #EB7713;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.requisitos h3 {
+    color: #A5F059;
+    margin-top: 20px;
+    margin-left: 190px;
+    text-align: left;
+    padding: 5px;
+}
+
+.requisitos ul {
+    color: white;
+    margin-left: 200px;
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+}*/
+
+/*TABLA PRECIOS*/
+
+.contenedor {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.tabla {
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border: 1px solid #EB7713;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 #EB7713;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    flex-grow: 1;
+    color: #EB7713;
+    background: white;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabla>h2 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.tabla img {
+    width: 64px;
+    margin-bottom: 35px;
+}
+
+.tabla>h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.tabla>p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background: #a5f059;
+    text-decoration: none;
+    color: #343759;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.tabla:hover {
+    background: #455A64;
+    color: white;
+    transition: 0.1s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media media and (max-width: 1000px) {
+    .tabla {
+        width: 50%;
+        max-width: none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+
+@media media and (max-width: 1000px) {
+    .tabla {
+        width: 45%;
+    }
+}

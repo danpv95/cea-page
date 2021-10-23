@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: #a5f059;*/
+}
+
+/*SERVICIOS*/
+.about-serv {
+    background: white;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #EB7713;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.servicio-cont {
+    width: 80%;
+    background: whitesmoke;
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+      
+}
+
+.servicio-ind {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+.servicio-ind img {
+    width: 90%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);  
+}
+
+.servicio-cont h3 {
+    color: #455A64;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.servicio-cont p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.boton {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background: #a5f059;
+    text-decoration: none;
+    color: #343759;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+/*Other Serevers*/
+.other-servers {
+    width: 100%;
+    height: 250px;
+    background: hsla(200, 45%, 24%, 0.443);
+    background: -webkit-linear-gradient(to right,
+            hsla(198, 43%, 11%, 0.8),
+            hsla(198, 43%, 11%, 0.8),
+            hsla(198, 43%, 11%, 0.8)),
+        url(../img/header3.jpg);
+    background: linear-gradient(to right,
+            hsla(198, 43%, 11%, 0.8),
+            hsla(198, 43%, 11%, 0.8),
+            hsla(198, 43%, 11%, 0.8)),
+        url(../img/header3.jpg);
+
+    background-size: cover;
+    position: relative;
+}
+
+.other-servers h1 {
+    color: #a5f059;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*SERVICIOS*/
+
+.servicios .contenedor-servicio{
+    /*border: 2px #EB7713 solid;*/
+    background:whitesmoke;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    
+    padding: 20px;
+
+    display: block;   
+}
+
+.servicio-titulo {
+    text-align: left;
+    color: #EB7713;
+
+}
+
+.servicio-parrafo {
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}

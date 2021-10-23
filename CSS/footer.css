@@ -1,0 +1,46 @@
+/*FOOTER*/
+
+footer {
+    background: #455A64;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin: auto;
+    /*padding-bottom: 10px;
+    border-bottom: 1px solid #EB7713;*/
+}
+
+.contenedor-foo {
+    text-align: center;
+}
+
+.contenedor-foo h4 {
+    padding: 5px 0 5px 0;
+    color: white;
+    border-bottom: 3px solid #a5f059;
+}
+
+.contenedor-foo p {
+    padding: 5px 0 5px 0;
+    color: white;
+}
+
+.contenedor-foo a {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo-final {
+    background: black;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    color: white;
+    padding: 10px;
+}
